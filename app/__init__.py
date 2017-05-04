@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_sqlalchemy import SQLALchemy
+from flask_sqlalchemy import SQLAlchemy
 from app import views, models
 
 app = Flask(__name__)
