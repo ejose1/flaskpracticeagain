@@ -1,5 +1,5 @@
 from flask import render_template, flash, redirect
-from app import app
+from . import app
 from .forms import LoginForm
 from random import randrange
 
